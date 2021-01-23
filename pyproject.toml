@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "acleetuner"
+version = "0.1.0"
+description = ""
+authors = ["Todd Birchard <toddbirchard@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "*"
+simplejson = "^3.17.2"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
